@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: 'Lucida Handwriting', cursive;
+            text-align: center;
+            background: linear-gradient(#f7ff00, #df4a14);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 50px;
+        }
+        .content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .add-to-cart {
+            color: white;
+            background-color: #010508;
+            border: none;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+        }
+        .quantity-input {
+            width: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="career.html">Careers</a>
+    </nav>
+    <div class="content">
+        <h1>Our Menu</h1>
+
+        <h2>Starters</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Garlic Bread</td>
+                    <td>$5.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Bruschetta</td>
+                    <td>$6.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Stuffed Mushrooms</td>
+                    <td>$7.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Main Course</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grilled Chicken</td>
+                    <td>$15.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Spaghetti Carbonara</td>
+                    <td>$14.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Vegetable Stir-Fry</td>
+                    <td>$12.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Desserts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolate Lava Cake</td>
+                    <td>$6.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Tiramisu</td>
+                    <td>$7.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Panna Cotta</td>
+                    <td>$6.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Beverages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fresh Lemonade</td>
+                    <td>$3.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Hot Coffee</td>
+                    <td>$2.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Italian Soda</td>
+                    <td>$4.99</td>
+                    <td><input type="number" class="quantity-input" value="1" min="1"></td>
+                    <td><button class="add-to-cart">Add to Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
